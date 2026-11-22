@@ -1,0 +1,44 @@
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | === INICIO DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | REGISTRO CLIENTE EXITOSO -> Cliente [CLI-001] Ronal Stiben Gonzalez | Correo: ronal.gonzalez@unad.edu.co | Tel: 3104567890
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | [OP-01] Completada sin errores.
+2026-11-22 08:24:35 | ERROR    | SoftwareFJ | [OP-02] Registro de cliente inválido (correo electrónico mal formado) -> ValidacionDatosError: El correo electrónico 'juan.perez_correo_invalido' no tiene un formato válido.
+2026-11-22 08:24:35 | ERROR    | SoftwareFJ | [OP-03] Registro de cliente inválido (teléfono con menos de 7 dígitos) -> ValidacionDatosError: El teléfono debe tener entre 7 y 15 dígitos numéricos.
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | REGISTRO CLIENTE EXITOSO -> Cliente [CLI-004] Camila Torres | Correo: camila.torres@tech.co | Tel: 3209876543
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | [OP-04] Completada sin errores.
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | REGISTRO SERVICIO EXITOSO -> Servicio [SRV-001] Sala Innovación FJ | Tarifa: $95,000.00/h | Estado: Disponible
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | [OP-05] Completada sin errores.
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | REGISTRO SERVICIO EXITOSO -> Servicio [SRV-002] Workstation Render Pro | Tarifa: $45,000.00/h | Estado: Disponible
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | [OP-06] Completada sin errores.
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | REGISTRO SERVICIO EXITOSO -> Servicio [SRV-003] Arquitectura Cloud & DevOps | Tarifa: $150,000.00/h | Estado: No disponible
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | [OP-07] Completada sin errores.
+2026-11-22 08:24:35 | ERROR    | SoftwareFJ | [OP-08] Creación inválida de servicio (tarifa negativa) -> ValidacionDatosError: La tarifa base del servicio debe ser un valor numérico mayor a cero.
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | RESERVA PROCESADA -> Reserva [RES-001] | Cliente: Ronal Stiben Gonzalez | Servicio: Sala Innovación FJ (4h) | Total: $406,980.00 | Estado: CONFIRMADA
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | [OP-09] Completada sin errores.
+2026-11-22 08:24:35 | ERROR    | SoftwareFJ | [OP-10] Reserva fallida por duración inválida (1 hora en Alquiler de Equipo) -> ValidacionDatosError: El alquiler de equipos requiere entre 2 y 72 horas.
+2026-11-22 08:24:35 | ERROR    | SoftwareFJ | [OP-11] Reserva fallida por servicio no disponible (SRV-003) -> ServicioNoDisponibleError: El servicio 'Arquitectura Cloud & DevOps' [SRV-003] no se encuentra disponible.
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | RESERVA PROCESADA -> Reserva [RES-004] | Cliente: Camila Torres | Servicio: Workstation Render Pro (5h) | Total: $240,000.00 | Estado: PENDIENTE
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | Reserva [RES-004] cancelada correctamente antes de prueba de error.
+2026-11-22 08:24:35 | ERROR    | SoftwareFJ | [OP-12] Reserva cancelada e intento no permitido de confirmarla -> EstadoReservaError: Operación no permitida: la reserva [RES-004] ya fue cancelada.
+2026-11-22 08:24:35 | INFO     | SoftwareFJ | === FIN DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | === INICIO DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | REGISTRO CLIENTE EXITOSO -> Cliente [CLI-001] Ronal Stiben Gonzalez | Correo: ronal.gonzalez@unad.edu.co | Tel: 3104567890
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | [OP-01] Completada sin errores.
+2026-11-22 08:46:30 | ERROR    | SoftwareFJ | [OP-02] Registro de cliente inválido (correo electrónico mal formado) -> ValidacionDatosError: El correo electrónico 'juan.perez_correo_invalido' no tiene un formato válido.
+2026-11-22 08:46:30 | ERROR    | SoftwareFJ | [OP-03] Registro de cliente inválido (teléfono con menos de 7 dígitos) -> ValidacionDatosError: El teléfono debe tener entre 7 y 15 dígitos numéricos.
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | REGISTRO CLIENTE EXITOSO -> Cliente [CLI-004] Camila Torres | Correo: camila.torres@tech.co | Tel: 3209876543
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | [OP-04] Completada sin errores.
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | REGISTRO SERVICIO EXITOSO -> Servicio [SRV-001] Sala Innovación FJ | Tarifa: $95,000.00/h | Estado: Disponible
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | [OP-05] Completada sin errores.
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | REGISTRO SERVICIO EXITOSO -> Servicio [SRV-002] Workstation Render Pro | Tarifa: $45,000.00/h | Estado: Disponible
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | [OP-06] Completada sin errores.
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | REGISTRO SERVICIO EXITOSO -> Servicio [SRV-003] Arquitectura Cloud & DevOps | Tarifa: $150,000.00/h | Estado: No disponible
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | [OP-07] Completada sin errores.
+2026-11-22 08:46:30 | ERROR    | SoftwareFJ | [OP-08] Creación inválida de servicio (tarifa negativa) -> ValidacionDatosError: La tarifa base del servicio debe ser un valor numérico mayor a cero.
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | RESERVA PROCESADA -> Reserva [RES-001] | Cliente: Ronal Stiben Gonzalez | Servicio: Sala Innovación FJ (4h) | Total: $406,980.00 | Estado: CONFIRMADA
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | [OP-09] Completada sin errores.
+2026-11-22 08:46:30 | ERROR    | SoftwareFJ | [OP-10] Reserva fallida por duración inválida (1 hora en Alquiler de Equipo) -> ValidacionDatosError: El alquiler de equipos requiere entre 2 y 72 horas.
+2026-11-22 08:46:30 | ERROR    | SoftwareFJ | [OP-11] Reserva fallida por servicio no disponible (SRV-003) -> ServicioNoDisponibleError: El servicio 'Arquitectura Cloud & DevOps' [SRV-003] no se encuentra disponible.
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | RESERVA PROCESADA -> Reserva [RES-004] | Cliente: Camila Torres | Servicio: Workstation Render Pro (5h) | Total: $240,000.00 | Estado: PENDIENTE
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | Reserva [RES-004] cancelada correctamente antes de prueba de error.
+2026-11-22 08:46:30 | ERROR    | SoftwareFJ | [OP-12] Reserva cancelada e intento no permitido de confirmarla -> EstadoReservaError: Operación no permitida: la reserva [RES-004] ya fue cancelada.
+2026-11-22 08:46:30 | INFO     | SoftwareFJ | === FIN DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
